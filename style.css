@@ -1,0 +1,349 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    background-color: #586A6A;
+    overflow: hidden;
+    padding: 0px;
+    margin: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-left: 0px;
+    height: 10vh;
+    width: 100%;
+    border: 20px black;
+}
+.banner{
+    background-color: #DAD4EF;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 80vh;
+}
+
+.logo{
+    width:40px;
+    height:40px;
+    float: left;
+    border-radius: 50%;
+}
+.logo img{
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+    margin: 5px;
+    padding-top: 5px;
+}
+
+#aboutus {
+    background-color: #D4C5C7;
+}
+#aboutus a{
+    color:  #505159;
+}
+
+#conclu{
+    background-color: #D4C5C7;
+}
+#conclu a{
+    color: #505159;
+}
+#quanti{
+    background-color: #D4C5C7;
+}
+#quanti a{
+    color:  #505159;
+}
+
+#quali{
+    background-color: #D4C5C7;
+}
+#quali a{
+    color:  #505159;
+}
+
+#intro{
+    background-color: #D4C5C7;
+}
+#intro a{
+    color:  #505159;
+}
+
+.links{
+    border-radius: 5%;
+    margin-top: 25px;
+    opacity: 0.7;
+    transition: .4s;
+    float: right;
+    display: inline;
+    font-family: 'Lucidia Consol';
+    padding-right: 1%;
+    padding-left: 1%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-right: 5px;
+    margin-bottom: 3px;
+    margin-top: 20px;
+}
+
+.links:hover{
+    opacity: 1;
+    transition: .4s;
+    font-size: larger;
+    font-family: 'Lucidia Consol';
+}
+
+.links a{
+     text-decoration: none;
+}
+
+#home{
+    font-size: x-large;
+}
+#home a{
+    color: #F3F3F3;
+    font-family: 'Lucidia Consol';
+    float: left;
+    text-decoration: none;
+}
+.links1{
+    padding-top: 20px;
+    padding-left: 20px;
+    margin-left: 50px;
+}
+
+.introtext h1{
+    color: #505159;
+    font-size: 4em;
+    text-align: left;
+    font-family: Arial Black;
+    margin-left: 25px;
+
+}
+
+.introtext p{
+    color:#011936;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    padding-left: 25px;
+    font-size: 25px;
+}
+
+.introtext a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 18px;
+    padding-left: 35px;
+    padding-right: 35px;
+    background-color: #011936;
+    margin-top: 15px;
+    font-family: Arial Black;
+    color: white;
+    font-weight: 500px;
+    font-size: 150%;
+    margin-left: 25px;
+    border-radius: 6%;
+}
+.introductiontext{
+    font-family: 'Ubuntu', sans-serif;
+    color: #011936;
+}
+.introparagraph{
+    font-size: 25px;
+    height: 72.6vh;
+    margin-left: 40px;
+    margin-right: 20px;
+    color: #011936;
+    font-family: 'Times New Roman', Times, serif;
+}
+.qualititle{
+   color: #011936;
+   font-size: medium;
+   font-family: 'Ubuntu', sans-serif;
+}
+.populations{
+    display: inline-flex;
+    padding-left: 30px;
+}
+.populationtable{
+    padding-left: 50px;
+    padding-top: 15px;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+.populationtable h5{
+    text-align: center;
+}
+
+.populationbar{
+    padding-left: 100px;
+    padding-top: 15px;
+}
+.populationbar p{
+    color: #011936;
+}
+.populationbar h5{
+    text-align: center;
+    margin-right: 125px;
+}
+.populationpie{
+    padding-top: 15px;
+}
+.populationpie p{
+    color: #011936;
+}
+.populationpie h5{
+    text-align: center;
+    margin-right: 90px;
+}
+.countries{
+    display: inline-flex;
+    padding-left: 30px;
+}
+.countriestable{
+    padding-left: 50px;
+    padding-top: 20px;
+}
+.countriesbar{
+    padding-left: 100px;
+    padding-top: 20px;
+}
+.countriesbar p{
+    color: #011936;
+}
+.countriespie{
+    padding-top: 20px;
+}
+.countriespie p{
+    color: #011936;
+}
+.quantititle{
+    font-family: 'Ubuntu', sans-serif;
+    color: #011936;
+}
+.fdts{
+    display: inline-flex;
+    margin-left: 40px;
+}
+.histograms{
+    display: inline-flex;
+    margin-left: 40px;
+}
+.mlehistogram{
+    margin-right: 90px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.flehistogram{
+    padding-right: 190px;
+}
+.boxplots{
+    display: inline-flex;
+    margin-left: 40px;
+}
+.mleboxplot{
+    margin-right: 90px;
+    padding-left: 30px;
+    padding-right: 0px;
+}
+.fleboxplot{
+    padding-right: 100px;
+    padding-left:5px;
+}
+.conclusion{
+    height: 80vh;
+}
+.conclusiontext{
+    font-size: 19px;
+    margin-left: 40px;
+    margin-right: 20px;
+    text-align: left;
+    color: #011936;
+}
+.conclusiontext h2{
+    font-family: 'Ubuntu', sans-serif;
+    color: #011936;
+}
+.references{
+    font-size: 16px;
+    margin-left: 40px;
+    margin-right: 20px;
+    text-align: left;
+    color: #011936;
+}
+.references h2{
+    font-family: 'Ubuntu', sans-serif;
+    color: #011936;
+}
+
+.aboutme{
+    display: inline-block; 
+    width: 20vw; 
+    margin-left: 15%;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #011936;
+    padding-top: 15px;  
+}
+.aboutme h3{
+    font-family: 'Ubuntu', sans-serif;
+    color: #011936;
+}
+.aboutme img{
+    width: 13vw;
+    height: 15vw;
+    border: 5px solid #011936;
+}
+.myteam{ 
+    width: 30vw;
+    display: block;
+    bottom: 0px;
+    position: absolute;
+    margin-left: 38%;
+    padding-bottom: 10%;
+}
+.myteam p{
+    text-align: left;
+}
+.myteam img{
+    width: 15vw;
+    height: 10vw;
+    float: left;
+} 
+
+.footer{
+    padding: 0px;
+    margin: 0px;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background: #586A6A;
+    height: 50px;
+    border: 20px black;
+    margin-bottom: 0px;
+    position: absolute;
+    height: 10vh;
+    width: 100%;
+}
+
+.socialmedias{
+    float: right;
+    border: 0vh solid;
+    padding: 13px;
+    border-radius: 50%;  
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+
+.copyrights{
+    padding: 21px;
+    float:left;
+    color: #E6F8FF;
+    font-family: Courier New;
+}
+.rounds{
+    border-radius: 50%;
+}
