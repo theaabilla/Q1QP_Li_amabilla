@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
 }
-.navbar {
+.navbar {  /*contains the navbar, can be seen on all pages*/
     background-color: #586A6A;
     overflow: hidden;
     padding: 0px;
@@ -15,22 +15,22 @@
     width: 100%;
     border: 20px black;
 }
-.banner{
+.banner{ /*contains the content of our project*/
     background-color: #DAD4EF;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    width: 100vw;
+    width: 90w;
     height: 80vh;
 }
 
-.logo{
+.logo{ /* styles for the logo*/
     width:40px;
     height:40px;
     float: left;
     border-radius: 50%;
 }
-.logo img{
+.logo img{ /* styles for the logo image*/
     width:40px;
     height:40px;
     border-radius: 50%;
@@ -72,7 +72,7 @@
     color:  #505159;
 }
 
-.links{
+.links{ /*styles for the links in the navbar*/
     border-radius: 5%;
     margin-top: 25px;
     opacity: 0.7;
@@ -94,13 +94,14 @@
     transition: .4s;
     font-size: larger;
     font-family: 'Lucidia Consol';
+    color: #B9A394;
 }
 
 .links a{
      text-decoration: none;
 }
 
-#home{
+#home{ /*styles for the home button on the navbar*/
     font-size: x-large;
 }
 #home a{
@@ -115,7 +116,7 @@
     margin-left: 50px;
 }
 
-.introtext h1{
+.introtext h1{ /*styles for the title on the index page*/
     color: #505159;
     font-size: 4em;
     text-align: left;
@@ -124,7 +125,7 @@
 
 }
 
-.introtext p{
+.introtext p{ 
     color:#011936;
     font-family: 'Times New Roman', Times, serif;
     text-align: left;
@@ -132,7 +133,7 @@
     font-size: 25px;
 }
 
-.introtext a{
+.introtext a{ /*styles for the enter button*/
     text-decoration: none;
     display: inline-block;
     padding: 18px;
@@ -147,9 +148,13 @@
     margin-left: 25px;
     border-radius: 6%;
 }
-.introductiontext{
+.introductiontext{ /*styles for the introduction on the study background page*/
     font-family: 'Ubuntu', sans-serif;
     color: #011936;
+}
+.introductiontext h2{
+    margin-left: 40px;
+    margin-right: 20px;
 }
 .introparagraph{
     font-size: 25px;
@@ -159,12 +164,23 @@
     color: #011936;
     font-family: 'Times New Roman', Times, serif;
 }
-.qualititle{
+.qualititle{ /*styles for the qualitative data on the qualitative page*/
    color: #011936;
    font-size: medium;
-   font-family: 'Ubuntu', sans-serif;
 }
-.populations{
+.qualititle h2{
+    margin-left: 40px;
+    margin-right: 20px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.qualititle p{
+    margin-left: 40px;
+    margin-right: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #011936;
+    font-size: 20px;
+}
+.populations{ /*styles for the populations*/
     display: inline-flex;
     padding-left: 30px;
 }
@@ -172,6 +188,7 @@
     padding-left: 50px;
     padding-top: 15px;
     font-family: Verdana, Tahoma, sans-serif;
+    color: #011936;
 }
 .populationtable h5{
     text-align: center;
@@ -180,6 +197,7 @@
 .populationbar{
     padding-left: 100px;
     padding-top: 15px;
+    font-family: Verdana, Tahoma, sans-serif;
 }
 .populationbar p{
     color: #011936;
@@ -190,6 +208,7 @@
 }
 .populationpie{
     padding-top: 15px;
+    font-family: Verdana, Tahoma, sans-serif;
 }
 .populationpie p{
     color: #011936;
@@ -198,9 +217,10 @@
     text-align: center;
     margin-right: 90px;
 }
-.countries{
+.countries{ /*styles for the countries used in asia and europe*/
     display: inline-flex;
     padding-left: 30px;
+    font-family: Verdana, Tahoma, sans-serif;
 }
 .countriestable{
     padding-left: 50px;
@@ -219,17 +239,30 @@
 .countriespie p{
     color: #011936;
 }
-.quantititle{
+.quantititle h2{ /*styles for the quantitative data on the quantitative page*/
     font-family: 'Ubuntu', sans-serif;
     color: #011936;
+    margin-left: 40px;
+    margin-right: 20px;
 }
-.fdts{
+.quantititle p{
+    margin-left: 40px;
+    margin-right: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #011936;
+    font-size: 20px;
+}
+.fdts{ /*styles for the fdts*/
     display: inline-flex;
     margin-left: 40px;
+    font-family: Verdana, Tahoma, sans-serif;
+    color: #011936;
 }
-.histograms{
+.histograms{ /*styles for the histograms*/
     display: inline-flex;
     margin-left: 40px;
+    font-family: Verdana, Tahoma, sans-serif;
+    color: #011936;
 }
 .mlehistogram{
     margin-right: 90px;
@@ -239,9 +272,11 @@
 .flehistogram{
     padding-right: 190px;
 }
-.boxplots{
+.boxplots{ /*styles for the boxplots*/
     display: inline-flex;
     margin-left: 40px;
+    font-family: Verdana, Tahoma, sans-serif;
+    color: #011936;
 }
 .mleboxplot{
     margin-right: 90px;
@@ -252,7 +287,7 @@
     padding-right: 100px;
     padding-left:5px;
 }
-.conclusion{
+.conclusion{ /*styles for the conclusion on the conclusion page*/
     height: 80vh;
 }
 .conclusiontext{
@@ -266,7 +301,7 @@
     font-family: 'Ubuntu', sans-serif;
     color: #011936;
 }
-.references{
+.references{ /*styles for the references on the conclusion page*/
     font-size: 16px;
     margin-left: 40px;
     margin-right: 20px;
@@ -278,7 +313,7 @@
     color: #011936;
 }
 
-.aboutme{
+.aboutme{ /*styles for the about me on the the about us page*/
     display: inline-block; 
     width: 20vw; 
     margin-left: 15%;
@@ -297,24 +332,25 @@
     height: 15vw;
     border: 5px solid #011936;
 }
-.myteam{ 
+.myteam{ /*styles for the about my team on the the about us page*/
     width: 30vw;
     display: block;
     bottom: 0px;
     position: absolute;
-    margin-left: 38%;
+    margin-left: 30%;
     padding-bottom: 10%;
+    color: #011936;
 }
 .myteam p{
     text-align: left;
+    color: #011936;
 }
 .myteam img{
     width: 15vw;
     height: 10vw;
     float: left;
 } 
-
-.footer{
+.footer{ /* contains the footer and is present on all the pages*/
     padding: 0px;
     margin: 0px;
     padding-top: 0px;
@@ -328,8 +364,7 @@
     height: 10vh;
     width: 100%;
 }
-
-.socialmedias{
+.socialmedias{ /*styles for the socmed div*/
     float: right;
     border: 0vh solid;
     padding: 13px;
@@ -338,12 +373,12 @@
     margin-bottom: 30px;
 }
 
-.copyrights{
+.copyrights{ /*styles for the copyrights, present to all pages*/
     padding: 21px;
     float:left;
     color: #E6F8FF;
     font-family: Courier New;
 }
-.rounds{
+.rounds{ 
     border-radius: 50%;
 }
